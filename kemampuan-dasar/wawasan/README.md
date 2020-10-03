@@ -1,6 +1,6 @@
 ### Sejarah Software Engineering
 #### Komputer Digital 
-    komputer digital pertama muncul sekitar pada tahun 1940,Practitioners quickly realized that this design was not flexible and came up with the "stored program architecture" or von Neumann architecture.
+komputer digital pertama muncul sekitar pada tahun 1940,Practitioners quickly realized that this design was not flexible and came up with the "stored program architecture" or von Neumann architecture.
 
 #### Bahasa Pemrogram
 Bahasa pemrograman mulai muncul pada awal 1950 dan ini juga merupakan langkah besar dalam abstraksi. Bahasa utama seperti Fortran, ALGOL, PL / I, dan COBOL dirilis sekitar pada akhir 1950 dan 1960 untuk menangani masalah ilmiah, algoritmik, dan bisnis masing-masing. David Parnas memperkenalkan konsep kunci dari modularitas dan penyembunyian informasi pada tahun 1972 untuk membantu pemrogram menangani kompleksitas sistem perangkat lunak yang terus meningkat.
