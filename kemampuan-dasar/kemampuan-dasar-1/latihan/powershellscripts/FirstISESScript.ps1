@@ -1,0 +1,1 @@
+Get-WmiObject -Class Win32_OperatingSystem –ComputerName pandu | Select-Object -Property CSName,FreeVirtualMemory 

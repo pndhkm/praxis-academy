@@ -1,0 +1,205 @@
+  1)ipconfig 
+    Answer : Ipconfig adalah salah satu perintah pada sistem operasi Windows yang berfungsi untuk menampilkan konfigurasi IP komputer.
+   
+    C:\Users\pandu>ipconfig
+
+    Windows IP Configuration
+
+
+    Ethernet adapter VirtualBox Host-Only Network:
+
+    Connection-specific DNS Suffix  . :
+    Link-local IPv6 Address . . . . . : fe80::572:cb8a:65ab:3c6c%20
+    IPv4 Address. . . . . . . . . . . : 192.168.56.1
+    Subnet Mask . . . . . . . . . . . : 255.255.255.0
+    Default Gateway . . . . . . . . . :
+
+    Wireless LAN adapter Local Area Connection* 1:
+
+    Media State . . . . . . . . . . . : Media disconnected
+    Connection-specific DNS Suffix  . :
+
+    Wireless LAN adapter Local Area Connection* 2:
+
+    Media State . . . . . . . . . . . : Media disconnected
+    Connection-specific DNS Suffix  . :
+
+    Wireless LAN adapter Wi-Fi:
+
+    Connection-specific DNS Suffix  . :
+    Link-local IPv6 Address . . . . . : fe80::b1b3:ca3d:2bc3:e229%8
+    IPv4 Address. . . . . . . . . . . : 192.168.20.6
+    Subnet Mask . . . . . . . . . . . : 255.255.255.0
+    Default Gateway . . . . . . . . . : 192.168.20.1
+
+    Ethernet adapter Bluetooth Network Connection 2:
+
+    Media State . . . . . . . . . . . : Media disconnected
+    Connection-specific DNS Suffix  . :
+
+2) ping -a  180.242.180.197
+    Answer : ping -a berfungsi untuk mencari domain dengan alamat IP 
+    Pinging 197.subnet180-242-180.speedy.telkom.net.id [180.242.180.197] with 32 bytes of data:
+
+3) tracert otaklinux.com
+    Answer : Tracert adalah perintah untuk menunjukkan rute yang dilewati paket untuk mencapai tujuan.(kalau diLinux namanaya traceroute).
+    C:\Users\pandu>tracert otaklinux.com
+
+        Tracing route to otaklinux.com [103.253.215.129]
+        over a maximum of 30 hops:
+
+        1   183 ms     2 ms     1 ms  192.168.20.1
+        2    15 ms     4 ms     1 ms  192.168.89.1
+        3     5 ms     9 ms     4 ms  10.237.0.1
+        4    11 ms     3 ms     5 ms  180.252.1.137
+        5     *        *        *     Request timed out.
+        6    19 ms    22 ms    18 ms  3.172.30.103.in-addr.arpa [103.30.172.3]
+        7    25 ms    20 ms    21 ms  puntadewa.dua.rumahweb.com [103.253.215.129]
+
+4) systeminfo 
+    Answer : systeminfo berfungsi untuk melihat informasi sistem komputer yang digunakan 
+            c> systeminfo
+            Host Name:                 LAPTOP-2HK2AQ23
+            OS Name:                   Microsoft Windows 10 Home Single Language
+            OS Version:                10.0.18363 N/A Build 18363
+            OS Manufacturer:           Microsoft Corporation
+            OS Configuration:          Standalone Workstation
+            OS Build Type:             Multiprocessor Free
+            Registered Owner:          panduhakam25@gmail.com
+            Registered Organization:   N/A
+            Product ID:                00327-36221-76085-AAOEM
+            Original Install Date:     08/09/2020, 09:53:27
+            System Boot Time:          01/10/2020, 14:34:57
+            System Manufacturer:       LENOVO
+            System Model:              81W0
+            System Type:               x64-based PC
+            Processor(s):              1 Processor(s) Installed.
+
+5) rmdir
+    Answer : rmdir berfungsi untuk menghapus sebuah / multi direktori yang tidak ada isinya.Jika ingin menghapus direktori yang ada isinya maka tambahkan rmdir /s /q $DIR
+
+6) shutdown -s -t 60
+    Answer : shutdown -s -t 60 artinya komputer akan shutdown dalam waktu 60 detik
+
+7) rename tes tes1
+    Answer : rename berfungsi untuk mengganti nama file,pada contoh diatas saya mengganti file tes menjadi tes1
+
+8) tskill : 
+    Answer :  taskkill berfungsi untuk menghentikan sebuah program,tskill $PID
+        
+        c>tasklist
+
+        Image Name                     PID Session Name        Session#    Mem Usage
+        ========================= ======== ================ =========== ============
+        System Idle Process              0 Services                   0          8 K
+        System                           4 Services                   0        172 K
+        Registry                        88 Services                   0     24.128 K
+
+9) tree 
+    Answer : tree berfungsi untuk melihat isi file yang ada didalam direktori 
+    
+    c> tree posaidon
+        Folder PATH listing for volume Windows-SSD
+        Volume serial number is 8450-E38F
+        C:\USERS\PANDU\DESKTOP\POSAIDON
+        └───poseidon
+            └───poseidon
+                ├───assets
+                │   ├───css
+                │   ├───fonts
+                │   ├───genericons
+                │   ├───images
+                │   └───js
+                ├───inc
+                │   ├───customizer
+                │   │   ├───controls
+                │   │   ├───functions
+                │   │   └───sections
+                │   └───widgets
+                ├───languages
+                └───template-parts
+                    └───widgets
+
+10) move in windows. mv in linux
+    Answer : move / mv adalah sebuah printah untuk memindahkah file,pada contoh saya memindahkan file posaidon ke dir tes1
+    c>move posaidon tes1
+        1 dir(s) moved.
+
+11) cmd
+    Answer : untuk melihat versi CMD 
+    c>cmd
+    Microsoft Windows [Version 10.0.18363.1082]
+    (c) 2019 Microsoft Corporation. All rights reserved.
+
+11) CHKDSK
+    Answer : CHKDSK berfungsi untuk pengecekan terhadap bad sector atau mengoreksi kesalahan sistem file yang disimpan pada harddisk.
+
+12)  DEFRAG
+    Answer : DEFRAG berfungsi merapikan atau menata ulang file yang ada pada harddisk.
+
+13) print
+    Answer : code print akan melakukan print pada umumnya 
+    print $printername $file
+
+14) netstat
+    Answer : berfungsi untuk melakukan monitoring koneksi jaringan pada suatu komputer
+        netstat
+
+        Active Connections
+
+        Proto  Local Address          Foreign Address        State
+        TCP    192.168.20.6:50262     203:https              ESTABLISHED
+        TCP    192.168.20.6:50265     sc-in-f188:5228        ESTABLISHED
+        TCP    192.168.20.6:50337     203:https              ESTABLISHED
+        TCP    192.168.20.6:50978     254:https              TIME_WAIT
+        TCP    192.168.20.6:50979     200:https              TIME_WAIT
+        TCP    192.168.20.6:50983     55:https               TIME_WAIT
+        TCP    192.168.20.6:50986     254:https              TIME_WAIT
+        TCP    192.168.20.6:50987     254:https              TIME_WAIT
+        TCP    192.168.20.6:50988     254:https              TIME_WAIT
+        TCP    192.168.20.6:50998     ec2-3-104-186-70:https  TIME_WAIT
+        TCP    192.168.20.6:51000     55:https               TIME_WAIT
+        TCP    192.168.20.6:51001     254:https              TIME_WAIT
+        TCP    192.168.20.6:51003     254:https              TIME_WAIT
+        TCP    192.168.20.6:51007     55:https               TIME_WAIT
+
+15) nslookup
+    Answer : nslookup berfungsi untuk mendapatkan informasi  DNS server atau IP DNS tersebut.
+        c>nslookup otaklinux.com
+        
+        DNS request timed out.
+            timeout was 2 seconds.
+        Server:  UnKnown
+        Address:  8.8.8.8
+
+        Non-authoritative answer:
+        Name:    otaklinux.com
+        Address:  103.253.215.129
+    
+16) cd
+    Answer : cd berfungsi untuk pindah dari direktori saat ini ke direktori yang ditiju
+    C:\Users\pandu>
+    C:\Users\pandu>cd Desktop
+    C:\Users\pandu\Desktop>
+
+17) diskpart
+    listdisk
+    select $disk
+    clean
+    create Partition Primary 
+    format fs=ntfs
+    assign 
+
+    Answer : printah diatas artinya kita akan memformat $disk dengan jenis ntfs
+
+
+18)  echo 
+    Answer : echo digunakan untuk menampilkan hasil output,echo diwindows sama dengan echo di BASH shell,jika pakai shell python gunakan printf.
+    c>echo "hello world"
+    output : "hello world"
+
+19) exit
+    Answer : keluar dari cmd 
+
+20) iproute print 
+    Answer : berfungsi menampilkan Ip route
