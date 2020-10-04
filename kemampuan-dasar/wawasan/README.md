@@ -37,13 +37,13 @@ ___
 _to check the git version, open your terminal and enter the code "git --version."_
 ___
 ### Create account Github 
-- first open the url [github!](https://github.com/)
+- first open the url [github](https://github.com/)
 - Enter the required ID ( Username ,email and password)
 - Sign up for github
 - then check the email you entered earlier for verification
 - After email verification, github will redirect you to github.com, this indicates successful verification
 ___
 ### Creating a new repository in github
-This url [Create New Repo!](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-new-repository) describes how to create a repository.
+This url [Create New Repo](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-new-repository) describes how to create a repository.
 
 
