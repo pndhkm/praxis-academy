@@ -44,6 +44,6 @@ ___
 - After email verification, github will redirect you to github.com, this indicates successful verification
 ___
 ### Creating a new repository in github
-This url [Setting up a repository](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-new-repository) describes how to create a repository.
+Thi [url](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-new-repository) describes how to create a repository.
 
 
