@@ -21,7 +21,7 @@ We have to download it first, then do the next> next> finish ritual.
 But in this ritual, there are options that must be considered so that the git command can be recognized in CMD.
 Download Git
 Please go to the official Git website (git-scm.com). Then download Git according to our computer architecture. If using 64bit, download the 64bit. Likewise when using 32bit.
-___
+
 #### How to Install Git on Windows ,follow the steps below 
 - open the git-$version.exe file
 - Then the Git license information will appear, click Next> to continue
@@ -44,6 +44,6 @@ ___
 - After email verification, github will redirect you to github.com, this indicates successful verification
 ___
 ### Creating a new repository in github
-This url [Create New Repo](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-new-repository) describes how to create a repository.
+This url [Setting up a repository](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-new-repository) describes how to create a repository.
 
 
