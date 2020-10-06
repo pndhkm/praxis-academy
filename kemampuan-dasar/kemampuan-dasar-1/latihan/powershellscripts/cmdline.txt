@@ -194,7 +194,9 @@
 
 
 18)  echo 
-    Answer : echo digunakan untuk menampilkan hasil output,echo diwindows sama dengan echo di BASH shell,jika pakai shell python gunakan printf.
+    Answer : echo digunakan untuk menampilkan hasil output,echo diwindows sama dengan echo di BASH shell,jika pakai shell python gunakan print
+    
+    .
     c>echo "hello world"
     output : "hello world"
 
