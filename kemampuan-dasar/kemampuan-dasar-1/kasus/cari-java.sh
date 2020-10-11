@@ -1,12 +1,14 @@
 #!/bin/bash
 #Maaf saya menggunakan vm linux
-#coba diff
 
+ext="*.java"
 
-ext="java"
+search=$(find . -name "${ext}" >> found.tmp)
+get=$(cat found.tmp)
 
-cari=$(find . -name "*.${ext}" >> found.tmp)
-for list in $(cat found.tmp); do
-  echo "Ada file Java pada direktori ${list}"
-done
-rm found.tmp
+if [[ -s found.tmp ]]; then
+echo  "Ada file Java pada direktori "
+echo "${get}"
+fi
+
+rm -f found.tmp
